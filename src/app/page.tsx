@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <a href="/defi" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           <h2 className="mb-3 text-2xl font-semibold">
             DeFi{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -25,9 +25,9 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Complete decentralized finance platform with yield farming, liquidity pools, and portfolio management.
           </p>
-        </div>
+        </a>
 
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <a href="/nft" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           <h2 className="mb-3 text-2xl font-semibold">
             NFT Marketplace{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -37,9 +37,9 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Trade, mint, and manage NFTs with advanced rarity systems and collection management.
           </p>
-        </div>
+        </a>
 
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <a href="/ai" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           <h2 className="mb-3 text-2xl font-semibold">
             AI Analytics{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -49,9 +49,9 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             AI-powered market predictions, risk assessment, and trading signals.
           </p>
-        </div>
+        </a>
 
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <a href="/web3" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           <h2 className="mb-3 text-2xl font-semibold">
             Web3 Integration{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -61,7 +61,7 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Multi-chain wallet connectivity and smart contract interactions.
           </p>
-        </div>
+        </a>
       </div>
     </main>
   )
