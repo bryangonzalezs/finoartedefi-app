@@ -1,33 +1,30 @@
-# 🚀 FinoArte DeFi Platform
+🚀 FinoArte DeFi Platform
 
-The most advanced DeFi platform ever created.
+A decentralized finance platform in active development, built on 
+Next.js 14 and TypeScript. Part of the FinoArte DeFi security and 
+technology brand.
 
-## Features
-
-- **DeFi Platform**: Complete decentralized finance functionality
-- **NFT Marketplace**: Trade, mint, and manage NFTs
-- **AI Analytics**: AI-powered market predictions and risk assessment
-- **Web3 Integration**: Multi-chain wallet connectivity
-- **Real-time Trading**: Live price feeds and order book
-- **Security**: Enterprise-grade security with 2FA
-- **Accessibility**: WCAG 2.1 AAA compliance
-- **Mobile**: PWA capabilities and mobile optimization
-
-## Tech Stack
-
-- Next.js 14
+## Stack
+- Next.js 14 (App Router)
 - TypeScript
 - Tailwind CSS
 - Framer Motion
-- Zustand
+- Zustand (state management)
 
-## Getting Started
+## Status
+Early-stage — core UI and application architecture in place. 
+Actively building out functionality below.
 
-```bash
-npm install
-npm run dev
-```
+## Roadmap
+- [ ] DeFi platform core functionality
+- [ ] NFT marketplace (trade, mint, manage)
+- [ ] AI-powered market analytics
+- [ ] Multi-chain wallet integration (Web3)
+- [ ] Real-time trading / live price feeds
+- [ ] Security hardening (2FA, audit)
+- [ ] Accessibility compliance pass
+- [ ] PWA / mobile optimization
 
-## Deployment
-
-Deployed on Vercel: https://finoartedefi.vercel.app
+## About
+Built by Bryan Steve González Solís as part of the FinoArte DeFi 
+brand — JetLux Holdings' IT and cybersecurity vertical.
